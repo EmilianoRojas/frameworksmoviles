@@ -1,0 +1,127 @@
+
+* {box-sizing: border-box}
+.navbar {
+    transition: all 0.4s;
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+body {
+    min-height: 110vh;
+    background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #5CCB8F 0%, #c4e0e5 100%);
+}
+
+.container {
+  padding: 16px;
+}
+
+.centrado{
+    text-align: center;
+}
+.materias{
+  border-radius: 20px;
+  background: #B9E7DF;
+  padding: 20px;
+  color: #555;
+  padding-bottom: 50px;
+}
+
+.negrita{
+  margin-bottom: 15px;
+}
+
+
+
+.col.p{
+  text-align: center;
+}
+
+.img_materias{
+  padding-top: 15px;
+  max-width: 80%;
+  height: 80%;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+
+  .how-section1{
+    margin-top:-5%;
+    padding: 5%;
+}
+.how-section1 h4{
+    color: #CC665C;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #2D8053;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 60%;
+}
